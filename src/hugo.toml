@@ -1,0 +1,63 @@
+baseURL = 'https://pretty.games/'
+languageCode = 'en-us'
+title = 'Pretty Games'
+
+[params]
+author = "pretty games"
+description = "games made by Pri & Ti"
+authorImage = "/images/profile.jpg"
+paginate = 5
+
+Title = "Hi there!"
+content = "We make pretty games for you!♡"
+imageUrl = "/images/avatar.jpg"
+
+
+# To add a new social icon (More social icons can be found in JuiceBar\layouts\partials\svg.html.)
+[[params.social]]
+name = "Github"
+url = "https://github.com/pretty-games"
+#[[params.social]]
+#name = "telegram"
+#url = "https://t.me/Hotjuice"
+#[[params.social]]
+#name = "twitter"
+#url = "https://twitter.com/hotjuicee"
+[[params.social]]
+name = "email"
+url = "mailto:hi@pretty.games"
+
+[taxonomies]
+category = "categories"
+
+# To add a new navigation link
+[[menu.main]]
+name = "About"
+url = "/about"
+[[menu.main]]
+name = "Hopper"
+url = "/hopper"
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+
+
+# leave comments through GitHub Discussions
+#[params.giscus]
+#repo = "hotjuicew/blog"
+#repoID = "R_kgDOHHQOuw"
+#category = "Announcements"
+#categoryID = "DIC_kwDOHHQOu84CWCQ3"
+#mapping = "og:title"
+#reactionsEnabled = "1"
+#emitMetadata = "0"
+#inputPosition = "bottom"
+#lang = "en"
+#loading = "lazy"
+
+# Used for outputting the documentation (required).
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
+
