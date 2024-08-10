@@ -1,10 +1,14 @@
 ---
+layout: project
 title: Hopper
 showtitle: false
 author: PriTi
 heroimage: /images/hopper-title.png
-layout: single
-
+ios: soon
+android: soon
+itchio: soon
+support_email: support@pretty.games
+privacy_policy: https://github.com/pretty-games/privacy-policy/blob/main/hopper.md
 ---
 
 Join Hopper, the adorable bunny, on an exciting journey through lush, vibrant flower patches.  
@@ -12,18 +16,4 @@ In this beautifully hand-drawn game, you’ll need to tilt your device to guide 
 
 - To move Hopper around, tilt your phone left~right.
 - The art in the game was fully hand drawn!
-- The game is meant to be very easy to play
-
-## How do I get it?
-The game is free to play, no adds.  
-
-- Soon available at 
-  - the Apple App Store
-  - the Android Play Store
-  - Itch.io
-
-## Support
-- Send us an email at [support@pretty.games](mailto:support@pretty.games)
-
-## Privacy Policy
-- https://github.com/pretty-games/privacy-policy/blob/main/hopper.md
+- The game is meant to be very easy to play 

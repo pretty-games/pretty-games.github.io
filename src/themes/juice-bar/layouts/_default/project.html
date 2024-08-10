@@ -1,0 +1,56 @@
+{{/*  project template  */}}
+{{ define "main" }}
+<div class="single-container is-centered">
+    {{ if .Params.heroimage }}
+    <div class="hero-image">
+        <img src="{{ .Params.heroimage }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="archive">
+        {{ if .Params.showtitle}}
+        <h1 class="title is-1">{{ .Title }}</h1>
+        {{ end }}
+        <div class="content about-content">
+            {{ .Content }}
+            <div>
+                <h2 id="Download">Where can I play?</h2>
+                {{ if .Params.ios}}
+                    {{ if eq .Params.ios "soon" }}
+                        <img src="/images/store-badges/AppleAppStore_Soon.png" alt="Coming Soon on App Store">
+                    {{ else }}
+                        <a href="{{ .Params.ios }}" target="_blank">
+                            <img src="/images/store-badges/AppleAppStore.png" alt="Download from App Store">
+                        </a>
+                    {{ end }}
+                {{ end }}
+                {{ if .Params.android}}
+                    {{ if eq .Params.android "soon" }}
+                        <img src="/images/store-badges/GooglePlay_Soon.png" alt="Coming Soon on App Store">
+                    {{ else }}
+                        <a href="{{ .Params.android }}" target="_blank">
+                            <img src="/images/store-badges/GooglePlay.png" alt="Download from App Store">
+                        </a>
+                    {{ end }}
+                {{ end }}
+                {{ if .Params.itchio}}
+                    {{ if eq .Params.itchio "soon" }}
+                        <img src="/images/store-badges/itch-io_Soon.png" alt="Coming Soon on App Store">
+                    {{ else }}
+                        <a href="{{ .Params.itchio }}" target="_blank">
+                            <img src="/images/store-badges/itch-io.png" alt="Download from App Store">
+                        </a>
+                    {{ end }}
+                {{ end }}
+            </div>
+            {{ if .Params.support_email}}
+            <h2 id="support">Support</h2>
+            <ul><li>Send us an email at <a href="mailto:{{ .Params.support_email }}" target="_blank">{{ .Params.support_email }}</a></li></ul>
+            {{ end }}
+            {{ if .Params.privacy_policy}}
+            <h2 id="support">Privacy Policy</h2>
+            <ul><li><a href="{{ .Params.privacy_policy }}" target="_blank">{{ .Params.privacy_policy }}</a></li></ul>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
