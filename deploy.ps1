@@ -16,5 +16,4 @@ if ($commit) {
     # commit changes in docs
     git add .\docs\*
     git commit -m $commit
-    git push
 }
