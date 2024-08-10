@@ -1,0 +1,18 @@
+{{/*  single post template  */}}
+{{ define "main" }}
+<div class="single-container is-centered">
+    {{ if .Params.heroimage }}
+    <div class="hero-image">
+        <img src="{{ .Params.heroimage }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="archive">
+        {{ if .Params.showtitle}}
+        <h1 class="title is-1">{{ .Title }}</h1>
+        {{ end }}
+        <div class="content about-content">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}

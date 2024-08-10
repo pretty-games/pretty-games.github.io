@@ -1,0 +1,16 @@
+{{/*  A common template for list-type pages. The page that is displayed after clicking on blog  */}}
+{{/*  user: Create an index page for a list of blog posts.
+>> hugo new blog/_index.md  */}}
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+            {{ range .Pages.ByPublishDate.Reverse }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
