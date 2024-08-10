@@ -1,3 +1,7 @@
+param (
+    [string]$commit
+)
+
 # delete existing content
 rm -r -Force .\docs\*
 rmdir -Force .\docs
@@ -7,5 +11,10 @@ mkdir docs
 pushd .\src
 hugo -t juice-bar
 popd
-# commit changes in docs
-git add .\docs\*
+
+if ($commit) {
+    # commit changes in docs
+    git add .\docs\*
+    git commit -m $commit
+    git push
+}
