@@ -16,7 +16,7 @@
     <meta property="og:title" content="Pretty Games" />
 <meta property="og:description" content="games made by Pri &amp; Ti" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://pretty.games/" /><meta property="og:site_name" content="Hi there!" />
+<meta property="og:url" content="https://pretty.games/" /><meta property="og:site_name" content="Hello there!" />
 
 
     <meta name="twitter:card" content="summary"/>
@@ -104,7 +104,7 @@
     }
 
     
-    let theme = localStorage.getItem("theme") || "light";
+    let theme = localStorage.getItem("theme") || "none";
     const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (isDarkMode) {
         
@@ -114,7 +114,10 @@
         
         setTheme('light');
     }
-    setTheme(theme);
+
+    if (theme !== "none") {
+        setTheme(theme);
+    }
 
     
     document.getElementById("theme-toggle").addEventListener("click", function() {
@@ -144,9 +147,9 @@
 
 
 
-                        <h1 id="home-title" class="title is-1 ">Hi there!</h1>
+                        <h1 id="home-title" class="title is-1 ">Hello there!</h1>
                     <div class="description column content typewriter-effect">
-                        <div class="text" id="typewriter-text"> We make pretty games for you! ♡</div>
+                        <div class="text" id="typewriter-text"> ♡ We make pretty games! ♡</div>
 
                     </div>
                     <script>
@@ -186,11 +189,6 @@
         </main><footer class="footer">
     <div class="content has-text-centered">
     <span>&copy; 2024 <a href="https://pretty.games/">Pretty Games</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" target="_blank">Hugo</a> &
-        <a href="https://github.com/hotjuicew/hugo-JuiceBar" target="_blank">JuiceBar</a>
-    </span>
     </div>
   </footer></body>
 </html>
