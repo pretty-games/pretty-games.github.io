@@ -2,6 +2,7 @@
 title: "Lorem Ipsum"
 date: 2022-04-10T16:50:28+08:00
 categories : [ "Development" ]
+draft: true
 ---
 Lorem ipsum dolor sit amet, consectetur...
 ## What is Lorem Ipsum?
