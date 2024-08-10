@@ -1,9 +1,15 @@
 ---
-title: "About Us"
-date: 2019-04-26T20:18:54+03:00
-author: Hotjuice
-#heroimage: /images/author.jpg
 layout: about
+title: "About Us"
+showtitle: false
+#heroimage: /images/author.jpg
 ---
 
-We make games as a hobby and we try to make them pretty :)
+### Hello There!
+We make games as a hobby  
+... and we make them pretty :)
+
+The name **Pretty Games** is a word play on our names
+> Pri & Ti  
+> Priti  
+> — Pretty
