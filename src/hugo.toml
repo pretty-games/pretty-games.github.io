@@ -10,8 +10,8 @@ description = "games made by Pri & Ti"
 authorImage = "/images/profile.jpg"
 paginate = 5
 
-Title = "Hi there!"
-content = "We make pretty games for you! ♡"
+Title = "Hello there!"
+content = "♡ We make pretty games! ♡"
 imageUrl = "/images/avatar.jpg"
 
 # To add a new social icon (More social icons can be found in JuiceBar\layouts\partials\svg.html.)
