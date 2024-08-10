@@ -1,6 +1,8 @@
 baseURL = 'https://pretty.games/'
 languageCode = 'en-us'
 title = 'Pretty Games'
+theme = 'juice-bar'
+publishDir = "../docs"
 
 [params]
 author = "pretty games"
@@ -60,6 +62,3 @@ weight = 2
 # Used for outputting the documentation (required).
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-
-
