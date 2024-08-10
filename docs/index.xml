@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pretty Games</title>
+    <link>https://pretty.games/</link>
+    <description>Recent content on Pretty Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Feb 2023 22:19:13 +0800</lastBuildDate>
+    <atom:link href="https://pretty.games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hopper</title>
+      <link>https://pretty.games/hopper/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://pretty.games/hopper/</guid>
+      <description>This is a hobby game that we made for our nephew to play and we decided to release it.
+How to get it? Apple Store Play Store Itch.io Support if you have any question, contact us at support@pretty.games</description>
+    </item>
+    <item>
+      <title>Self Reliance</title>
+      <link>https://pretty.games/post/self-reliance/</link>
+      <pubDate>Sat, 18 Feb 2023 22:19:13 +0800</pubDate>
+      <guid>https://pretty.games/post/self-reliance/</guid>
+      <description>I read the other day some verses written by an eminent painter which were original and not conventional. The soul always hears an admonition in such lines, let the subject be what it may. The sentiment they instill is of more value than any thought they may contain. To believe your own thought, to believe that what is true for you in your private heart is true for all men, —that is genius.</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>https://pretty.games/about/</link>
+      <pubDate>Fri, 26 Apr 2019 20:18:54 +0300</pubDate>
+      <guid>https://pretty.games/about/</guid>
+      <description>We make games as a hobby and we try to make them pretty :)</description>
+    </item>
+  </channel>
+</rss>

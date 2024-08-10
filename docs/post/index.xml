@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pretty Games</title>
+    <link>https://pretty.games/post/</link>
+    <description>Recent content in Posts on Pretty Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Feb 2023 22:19:13 +0800</lastBuildDate>
+    <atom:link href="https://pretty.games/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self Reliance</title>
+      <link>https://pretty.games/post/self-reliance/</link>
+      <pubDate>Sat, 18 Feb 2023 22:19:13 +0800</pubDate>
+      <guid>https://pretty.games/post/self-reliance/</guid>
+      <description>I read the other day some verses written by an eminent painter which were original and not conventional. The soul always hears an admonition in such lines, let the subject be what it may. The sentiment they instill is of more value than any thought they may contain. To believe your own thought, to believe that what is true for you in your private heart is true for all men, —that is genius.</description>
+    </item>
+  </channel>
+</rss>
