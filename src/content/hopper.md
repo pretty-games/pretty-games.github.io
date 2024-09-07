@@ -4,7 +4,7 @@ title: Hopper
 showtitle: false
 author: PriTi
 heroimage: /images/hopper-title.png
-ios: soon
+ios: https://apps.apple.com/us/app/hopper-the-bunny/id6541762616
 android: soon
 itchio: soon
 support_email: support@pretty.games
